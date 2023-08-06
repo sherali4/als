@@ -111,29 +111,36 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
+  background: #FFFFFF;
+
+
 }
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(40, 100, 90, 0.9);
+border-bottom: 2px solid #000000;
+  color: #000000;
 }
 
 #header .logo {
   font-size: 30px;
   margin: 0;
+  margin-right: 30px;
   padding: 0;
   line-height: 1;
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
+
 }
 
 #header .logo a {
-  color: #fff;
+  color: #0000FF;
 }
 
 #header .logo img {
   max-height: 40px;
+  padding-right: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -166,7 +173,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 500;
-  color: #fff;
+  color: #0000FF;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -1822,4 +1829,13 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+}
+
+
+.pod_menu {
+    margin-top:100px;
+}
+
+.turt {
+color: #FF0000;
 }
