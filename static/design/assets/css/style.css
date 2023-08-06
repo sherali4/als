@@ -120,8 +120,12 @@ h6 {
 #header.header-inner-pages {
 border-bottom: 2px solid #000000;
   color: #000000;
+  align-left:0px;
+  border:1px solid black;
 }
-
+.tables{
+border; 1px;
+}
 #header .logo {
   font-size: 30px;
   margin: 0;
@@ -1705,6 +1709,11 @@ section {
   background: #fff;
 }
 
+.header1 {
+    background: #FFFFFF;
+    border-bottom: 1px #0066FF dotted;
+}
+
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
 }
@@ -1833,9 +1842,42 @@ section {
 
 
 .pod_menu {
-    margin-top:100px;
+    padding-top:150px;
 }
 
 .turt {
-color: #FF0000;
+
+font-size: 14px;
+margin: 0px;
+padding: 0px;
+margin-left: 10px;
+}
+.turt .j {
+color: rgb(112,48,160);
+}
+.turt .xu {
+color:rgb(0,128,0);
+}
+
+.turt .b {
+color: rgb(117,199,255);
+}
+.turt .s {
+color: rgb(100,100,100);
+}
+.turt .xi {
+color: rgb(255,168,41);
+}
+
+.logotip a strong {
+color: rgb(255,51,0);
+font-size: 16px;
+font-family: Arial PDD;
+}
+
+.menu {
+align: right;
+}
+marquee {
+background:#AAFFFF;
 }
